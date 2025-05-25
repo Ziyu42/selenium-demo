@@ -33,14 +33,3 @@ pip install -r requirements.txt
 pip install pytest
 pytest 
 ```
-
-## 專案結構
-.
-├── tests/                 # 存放所有 Pytest 測試案例
-│   ├── test_login.py      # 登入/登出相關測試
-├── pages/                 # 存放所有 Page Object 類別
-│   ├── __init__.py        # 讓 pages/ 作為一個 Python 套件
-│   └── login_page.py      # 登入頁面的 Page Object
-├── requirements.txt       # 專案所需的 Python 依賴項清單
-├── README.md              # 本說明文件
-└── conftest.py        # Pytest 的共用夾具 (fixtures)，例如 WebDriver 設置
