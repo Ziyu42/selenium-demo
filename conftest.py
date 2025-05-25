@@ -1,10 +1,12 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
 
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.implicitly_wait(5) # 設定隱式等待為 5 秒
     yield driver
     driver.quit()
+
