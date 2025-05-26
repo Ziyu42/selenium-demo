@@ -1,6 +1,6 @@
 # UI 自動化測試專案
 
-這是一個UI自動化測試專案，是基於Selenium WebDriver、Python和Pytest框架所建構而成。本專案只在為The Internet Herokuapp網站進行Login/Logout測試。
+這是一個UI自動化測試專案，是基於Selenium WebDriver、Python和Pytest框架所建構而成。本專案旨在為The Internet Herokuapp網站進行Login/Logout測試。
 
 ## 專案功能及特色
 - **頁面物件模型(POM)**：將Web Elements、Method封裝在獨立的類別中，提高測試的可維護性及可重用性。
